@@ -1,5 +1,3 @@
-# This is an auto-generated template
-
 with open("day-01/input.txt") as f:
     inputData = f.readlines()
 

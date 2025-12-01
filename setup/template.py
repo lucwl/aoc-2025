@@ -5,9 +5,7 @@ from scrape import get_headers
 from constants import *
 from update import update
 
-TEMPLATE = """# This is an auto-generated template
-
-with open("PATH/input.txt") as f:
+TEMPLATE = """with open("PATH/input.txt") as f:
     inputData = f.readlines()
 
 def q1() -> int:
