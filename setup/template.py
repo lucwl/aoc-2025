@@ -6,12 +6,9 @@ from constants import *
 from update import update
 
 TEMPLATE = """with open("PATH/input.txt") as f:
-    inputData = f.readlines()
+    input = f.readlines()
 
 def q1() -> int:
-    a = 0
-    for line in inputData.split():
-        pass
     return -1
 
 def q2() -> int:
